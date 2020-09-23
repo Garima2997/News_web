@@ -1,0 +1,68 @@
+  {% extends "layout.html" %}
+  {% block body %} 
+
+    <section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('/static/images/globe.jpg');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
+          <div class="col-md-9 ftco-animate pb-5 text-center">
+            <h1 class="mb-3 bread">About</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="/">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>About <i class="ion-ios-arrow-forward"></i></span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br>
+    <br>
+
+    <section class="ftco-section ftco-no-pt ftco-no-pb">
+    	<div class="container">
+    		<div class="row d-flex">
+    			<div class="col-md-6 d-flex">
+    				<div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-end" style="background-image:url(static/images/about.jpg);">
+    				</div>
+    			</div>
+    			<div class="col-md-6 pl-md-5 py-md-5">
+    				<div class="row justify-content-start pt-3 pb-3">
+		          <div class="col-md-12 heading-section ftco-animate">
+		          	<span class="subheading">Welcome to {{ params['website_name'] }}.</span>
+		            <h2 class="mb-4">{{ params['website_description'] }}</h2>
+		            <div class="tabulation-2 mt-4">
+									<ul class="nav nav-pills nav-fill d-md-flex d-block">
+									  <li class="nav-item mb-md-0 mb-2">
+									    <a class="nav-link active py-2" data-toggle="tab" href="#home1">Who I am</a>
+									  </li>
+									  <li class="nav-item px-lg-2 mb-md-0 mb-2">
+									    <a class="nav-link py-2" data-toggle="tab" href="#home2">What I do</a>
+									  </li>
+									  <li class="nav-item">
+									    <a class="nav-link py-2 mb-md-0 mb-2" data-toggle="tab" href="#home3">What I want</a>
+									  </li>
+									</ul>
+									<div class="tab-content bg-light rounded mt-2">
+									  <div class="tab-pane container p-0 active" id="home1">
+									  <p>Hey! I am Garima.</p>
+									  </div>
+									  <div class="tab-pane container p-0 fade" id="home2">
+									  	<p>I am Engineer. Trying to improve my web development skills with this website.</p>
+									  </div>
+									  <div class="tab-pane container p-0 fade" id="home3">
+									  	<p>la la la la... lala... laala....</p>
+									  </div>
+									</div>
+								</div>
+		          </div>
+		        </div>
+	        </div>
+        </div>
+    	</div>
+    </section>
+
+    <br>
+    <br>
+
+
+  {% endblock %}
+   
+    
